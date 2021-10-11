@@ -1,7 +1,25 @@
 library kloktun_helper;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+class KloktunHelper extends StatelessWidget {
+
+  Widget child;
+
+  KloktunHelper({
+    Key? key,
+    required this.child
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return ScreenUtilInit(
+      builder: (){
+        
+        return child;
+
+      }
+    );
+  }
 }

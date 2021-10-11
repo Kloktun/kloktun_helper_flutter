@@ -9,7 +9,7 @@ packages:
     source: hosted
     version: "2.6.1"
   badges:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: badges
       url: "https://pub.dartlang.org"
@@ -50,6 +50,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.15.0"
+  cupertino_icons:
+    dependency: "direct main"
+    description:
+      name: cupertino_icons
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.3"
   fake_async:
     dependency: transitive
     description:
@@ -77,7 +84,7 @@ packages:
     source: hosted
     version: "1.0.4"
   flutter_screenutil:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: flutter_screenutil
       url: "https://pub.dartlang.org"
@@ -89,12 +96,19 @@ packages:
     source: sdk
     version: "0.0.0"
   font_awesome_flutter:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: font_awesome_flutter
       url: "https://pub.dartlang.org"
     source: hosted
     version: "9.1.0"
+  kloktun_helper:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "0.0.1"
   lints:
     dependency: transitive
     description:
@@ -185,7 +199,7 @@ packages:
     source: hosted
     version: "2.1.0"
   youtube_player_flutter:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: youtube_player_flutter
       url: "https://pub.dartlang.org"

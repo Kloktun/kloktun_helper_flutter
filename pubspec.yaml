@@ -1,5 +1,5 @@
 name: kloktun_helper
-description: A new Flutter package project.
+description: Helper tools for KLOKTUN projects
 version: 0.0.1
 homepage:
 
@@ -8,8 +8,12 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
+  badges: ^2.0.1
   flutter:
     sdk: flutter
+  flutter_screenutil: ^5.0.0+2
+  font_awesome_flutter: ^9.1.0
+  youtube_player_flutter: ^8.0.0
 
 dev_dependencies:
   flutter_test:
